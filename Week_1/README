@@ -1,0 +1,78 @@
+# Data Cleaning & Preparation Project
+
+## Overview
+
+This project was completed as part of the DecodeLabs Data Analytics Internship Program.
+
+The objective of the project was to clean and prepare a raw dataset by identifying missing values, checking duplicates, correcting data formats, and ensuring data quality before analysis.
+
+---
+
+## Dataset Information
+
+- Total Records: 1200
+- Dataset Type: Sales / Orders Data
+- Tool Used: Microsoft Excel
+
+---
+
+## Data Cleaning Tasks Performed
+
+### 1. Missing Values Handling
+
+- Identified missing values in the CouponCode column.
+- Replaced blank values with "No Coupon".
+
+### 2. Duplicate Check
+
+- Checked for duplicate records.
+- Verified that no duplicate Order IDs existed.
+
+### 3. Date Formatting
+
+- Standardized all date values into a consistent format.
+- Verified that there were no invalid date entries.
+
+### 4. Data Type Validation
+
+Validated the following columns:
+
+| Column | Data Type |
+|----------|----------|
+| OrderID | Text |
+| Date | Date |
+| Quantity | Number |
+| UnitPrice | Number |
+| TotalPrice | Number |
+
+### 5. Data Quality Verification
+
+- Verified dataset consistency.
+- Checked for incorrect values.
+- Ensured readiness for future analysis and dashboard creation.
+
+---
+
+## Final Result
+
+The dataset was successfully cleaned and prepared for analysis.
+
+### Quality Checks Completed
+
+✅ Missing Values Handled
+
+✅ Duplicate IDs Checked
+
+✅ Date Formats Standardized
+
+✅ Numeric Columns Validated
+
+✅ Dataset Ready for Analysis
+
+---
+
+## Author
+
+Youssef Mohamed
+
+Data Analytics Intern – DecodeLabs 2026
