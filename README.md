@@ -25,6 +25,5 @@ This repository contains all projects and assignments completed during the Decod
 
 ## Author
 
-Youssef Mohamed
-Computer Science Student
-Data Analytics Intern – DecodeLabs
+- Youssef Mohamed
+- Data Analytics Intern – DecodeLabs
