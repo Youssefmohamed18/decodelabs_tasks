@@ -11,7 +11,7 @@ This repository contains all projects and assignments completed during the Decod
 - Data Analytics Project 2 – Exploratory Data Analysis (EDA)
 
 ### Week 3
-- Ongoing
+- Data Analytics Project 3 – SQL Data Analysis
 
 ## Skills Practiced
 
