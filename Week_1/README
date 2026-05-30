@@ -1,78 +1,101 @@
-# Data Cleaning & Preparation Project
+# DecodeLabs Data Cleaning & Preparation Project
 
-## Overview
+## Project Overview
 
 This project was completed as part of the DecodeLabs Data Analytics Internship Program.
 
-The objective of the project was to clean and prepare a raw dataset by identifying missing values, checking duplicates, correcting data formats, and ensuring data quality before analysis.
+The purpose of this project is to clean and prepare raw transactional data before analysis by applying data cleaning techniques and validation procedures.
 
 ---
 
 ## Dataset Information
 
-- Total Records: 1200
-- Dataset Type: Sales / Orders Data
-- Tool Used: Microsoft Excel
+The dataset contains transactional sales/order records with the following fields:
+
+* OrderID
+* Date
+* CustomerID
+* Product
+* Quantity
+* UnitPrice
+* CouponCode
+* TotalPrice
+
+**Total Records:** 1200
 
 ---
 
-## Data Cleaning Tasks Performed
+## Tools & Technologies Used
 
-### 1. Missing Values Handling
+* Microsoft Excel
+* Data Cleaning Techniques
+* Data Validation Methods
 
-- Identified missing values in the CouponCode column.
-- Replaced blank values with "No Coupon".
+---
 
-### 2. Duplicate Check
+## Project Workflow
 
-- Checked for duplicate records.
-- Verified that no duplicate Order IDs existed.
+1. Imported the raw dataset into Excel
+2. Inspected dataset structure and quality
+3. Identified missing values
+4. Checked duplicate records
+5. Standardized formatting
+6. Validated data types
+7. Verified dataset consistency
+8. Prepared cleaned dataset for analysis
 
-### 3. Date Formatting
+---
 
-- Standardized all date values into a consistent format.
-- Verified that there were no invalid date entries.
+## Data Cleaning Operations
 
-### 4. Data Type Validation
+### Missing Values Handling
 
-Validated the following columns:
+* Identified missing values in CouponCode column
+* Replaced blank values with standardized labels
 
-| Column | Data Type |
-|----------|----------|
-| OrderID | Text |
-| Date | Date |
-| Quantity | Number |
-| UnitPrice | Number |
-| TotalPrice | Number |
+### Duplicate Validation
 
-### 5. Data Quality Verification
+* Checked duplicate records
+* Verified uniqueness of Order IDs
 
-- Verified dataset consistency.
-- Checked for incorrect values.
-- Ensured readiness for future analysis and dashboard creation.
+### Data Formatting
+
+* Standardized date formats
+* Validated numeric columns
+* Checked formatting consistency
+
+### Data Type Verification
+
+| Column     | Data Type |
+| ---------- | --------- |
+| OrderID    | Text      |
+| Date       | Date      |
+| Quantity   | Number    |
+| UnitPrice  | Number    |
+| TotalPrice | Number    |
+
+---
+
+## Quality Checks Completed
+
+✅ Missing Values Processed
+
+✅ Duplicate Records Checked
+
+✅ Data Formats Standardized
+
+✅ Numeric Columns Validated
+
+✅ Dataset Prepared for Analysis
 
 ---
 
 ## Final Result
 
-The dataset was successfully cleaned and prepared for analysis.
-
-### Quality Checks Completed
-
-✅ Missing Values Handled
-
-✅ Duplicate IDs Checked
-
-✅ Date Formats Standardized
-
-✅ Numeric Columns Validated
-
-✅ Dataset Ready for Analysis
+The raw dataset was transformed into a structured and analysis-ready dataset suitable for future reporting, dashboarding, and analytical workflows.
 
 ---
 
-## Author
+## Conclusion
 
-Youssef Mohamed
-
-Data Analytics Intern – DecodeLabs 2026
+This project demonstrates practical experience in data cleaning and preparation by transforming raw transactional data into reliable and analysis-ready information.
