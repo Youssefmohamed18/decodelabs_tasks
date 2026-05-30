@@ -1,29 +1,101 @@
-# DecodeLabs Internship 2026
+# DecodeLabs Data Cleaning & Preparation Project
 
-This repository contains all projects and assignments completed during the DecodeLabs Internship Program.
+## Project Overview
 
-## Weekly Progress
+This project was completed as part of the DecodeLabs Data Analytics Internship Program.
 
-### Week 1
-- Data Analytics Project 1 – Data Cleaning & Preparation
+The purpose of this project is to clean and prepare raw transactional data before analysis by applying data cleaning techniques and validation procedures.
 
-### Week 2
-- Data Analytics Project 2 – Exploratory Data Analysis (EDA)
+---
 
-### Week 3
-- Data Analytics Project 3 – SQL Data Analysis
+## Dataset Information
 
-## Skills Practiced
+The dataset contains transactional sales/order records with the following fields:
 
-- Data Cleaning
-- Data Preparation
-- Excel
-- SQL
-- Data Analysis
-- Power BI
-- Python
+* OrderID
+* Date
+* CustomerID
+* Product
+* Quantity
+* UnitPrice
+* CouponCode
+* TotalPrice
 
-## Author
+**Total Records:** 1200
 
-- Youssef Mohamed
-- Data Analytics Intern – DecodeLabs
+---
+
+## Tools & Technologies Used
+
+* Microsoft Excel
+* Data Cleaning Techniques
+* Data Validation Methods
+
+---
+
+## Project Workflow
+
+1. Imported the raw dataset into Excel
+2. Inspected dataset structure and quality
+3. Identified missing values
+4. Checked duplicate records
+5. Standardized formatting
+6. Validated data types
+7. Verified dataset consistency
+8. Prepared cleaned dataset for analysis
+
+---
+
+## Data Cleaning Operations
+
+### Missing Values Handling
+
+* Identified missing values in CouponCode column
+* Replaced blank values with standardized labels
+
+### Duplicate Validation
+
+* Checked duplicate records
+* Verified uniqueness of Order IDs
+
+### Data Formatting
+
+* Standardized date formats
+* Validated numeric columns
+* Checked formatting consistency
+
+### Data Type Verification
+
+| Column     | Data Type |
+| ---------- | --------- |
+| OrderID    | Text      |
+| Date       | Date      |
+| Quantity   | Number    |
+| UnitPrice  | Number    |
+| TotalPrice | Number    |
+
+---
+
+## Quality Checks Completed
+
+✅ Missing Values Processed
+
+✅ Duplicate Records Checked
+
+✅ Data Formats Standardized
+
+✅ Numeric Columns Validated
+
+✅ Dataset Prepared for Analysis
+
+---
+
+## Final Result
+
+The raw dataset was transformed into a structured and analysis-ready dataset suitable for future reporting, dashboarding, and analytical workflows.
+
+---
+
+## Conclusion
+
+This project demonstrates practical experience in data cleaning and preparation by transforming raw transactional data into reliable and analysis-ready information.
